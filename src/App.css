@@ -1,0 +1,203 @@
+.header-color {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Landing Page */
+.landing-grid {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  overflow-x: auto;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 15em;
+  padding-bottom: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* Projects */
+.projects-grid {
+  display: flex;
+}
+
+/* Contact */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  height: 700px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.form {
+  height: 550px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+  text-align: left;
+}
+
+.form > button {
+  padding: 20px;
+  border: none;
+  background-color: #3c1053;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form > button:hover {
+  background-color: #ad5389;
+}
+
+/* Resume */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* About Me */
+.about-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 700px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
